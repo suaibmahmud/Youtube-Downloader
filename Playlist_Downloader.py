@@ -22,12 +22,12 @@ def playlist_download(itag, link):
 def directory():
     path = filedialog.askdirectory()
     os.chdir(path)
-    print(f"Directory: {path}\n")
+    print(f"=>Directory: {path}\n")
     
     
 def main():
     link = str(input("Link: "))
-    print("Resolutions available in 360p and 720p\n")
+    print("\n=>Resolutions available in 360p and 720p\n")
     resolution = str(input("Resolution: "))
     """
         itag list
